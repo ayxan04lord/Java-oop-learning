@@ -1,0 +1,47 @@
+# ==================== IntelliJ IDEA ====================
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Build output
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+# ==================== Java ====================
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+
+# ==================== Eclipse ====================
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+# ==================== NetBeans ====================
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# ==================== VS Code ====================
+.vscode/
+
+# ==================== OS ====================
+.DS_Store
+Thumbs.db
+
+# ==================== Kotlin (if used) ====================
+.kotlin
